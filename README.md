@@ -53,8 +53,8 @@ Seaborn >= 0.13.2
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/customer-segmentation.git
-cd customer-segmentation
+git clone https://github.com/KeshavxGupta/SCT_ML_2.git
+cd SCT_ML_2
 
 # Create virtual environment
 python -m venv myenv
@@ -78,28 +78,27 @@ python k-means.py
 ## 📈 Results & Visualization
 
 ### Elbow Method Analysis
-![Elbow Method](elbow_method_plot.png)
+<img src="./elbow_method_plot.png" alt="Elbow Method Plot showing optimal number of clusters" width="800"/>
+
 *Optimal cluster determination using the elbow method*
 
 ### Customer Segmentation
-![Customer Segments](customer_segments_plot.png)
+<img src="./customer_segments_plot.png" alt="Customer Segments Plot showing different customer groups" width="800"/>
+
 *Visual representation of identified customer segments*
 
 ## 📂 Project Structure
 
 ```plaintext
-customer-segmentation/
+SCT_ML_2/
 │
-├── k-means.py              # Main analysis script
-├── Mall_Customers.csv      # Source dataset
-├── requirements.txt        # Project dependencies
-├── .gitignore             # Git ignore rules
-│
-├── outputs/
-│   ├── elbow_method_plot.png    # Elbow curve visualization
-│   └── customer_segments_plot.png # Segment visualization
-│
-└── README.md              # Project documentation
+├── k-means.py                  # Main analysis script
+├── Mall_Customers.csv          # Source dataset
+├── requirements.txt            # Project dependencies
+├── .gitignore                 # Git ignore rules
+├── elbow_method_plot.png      # Elbow curve visualization
+├── customer_segments_plot.png  # Customer segments visualization
+└── README.md                  # Project documentation
 ```
 
 ## 📊 Analysis Workflow
