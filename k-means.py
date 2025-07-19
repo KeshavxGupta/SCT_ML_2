@@ -44,10 +44,10 @@ plt.title('Elbow Method for Optimal K')
 plt.xlabel('Number of Clusters (K)')
 plt.ylabel('WCSS (Within-Cluster Sum of Squares)')
 plt.grid(True)
-plt.show()
-plt.savefig('elbow_method_plot.png')
+plt.savefig('elbow_method_plot.png') # Save the plot before showing
 print("Elbow Method plot saved as 'elbow_method_plot.png'")
-plt.close()
+plt.show() # Display the plot
+plt.close() # Close the plot to free up memory
 
 print("\nBased on the Elbow Method plot, K=5 is a common choice.")
 
@@ -76,10 +76,10 @@ plt.xlabel('Annual Income (k$)')
 plt.ylabel('Spending Score (1-100)')
 plt.legend()
 plt.grid(True)
-plt.show()
-plt.savefig('customer_segments_plot.png')
+plt.savefig('customer_segments_plot.png') # Save the plot before showing
 print("Customer Segments plot saved as 'customer_segments_plot.png'")
-plt.close()
+plt.show() # Display the plot
+plt.close() # Close the plot to free up memory
 
 print("\nCustomer DataFrame with Cluster Assignments:")
 print(df.head())
